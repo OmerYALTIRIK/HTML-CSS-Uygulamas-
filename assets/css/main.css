@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;600&display=swap');
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height: 100%;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    font-style: 24px;
+    padding-bottom: 4px;
+    transition: all 0.1s ease;
+    box-shadow: inset 0 -2px 0 0 transparent;
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+
+section {
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-main {
+    background-image: url("../images/MainSection.jpg");
+    display: flex;
+    justify-content: center;
+    /* align horizontal yani soldan sağa (yatayda ortalama) */
+    align-items: center;
+    /* align vertical yani yukarıdan aşağıya (dikeyde ortalama) */
+}
+
+.section-main .hero {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.section-main .hero-sub {
+    max-width: 750px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.section-main .hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 28px;
+    width: 200px;
+    height: 60px;
+
+    color: #fff;
+    font-size: 24px;
+
+    background: #00B43D;
+    box-shadow: 0px 0px 6px rgba(0 0 0 / 25%);
+    border-radius: 10px;
+}
+
+.section-main .hero-button:hover {
+    background: #00ce45;
+}
+
+.section-main h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.section-gallery {
+    background-image: url("../images/GallerySection.jpg");
+    display: flex;
+    justify-content: center;
+    /* align horizontal yani soldan sağa (yatayda ortalama) */
+    align-items: center;
+    /* align vertical yani yukarıdan aşağıya (dikeyde ortalama) */
+    /* height: auto; */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 248px;
+    padding: 24px;
+    box-sizing: border-box;
+    background: rgba(88, 88, 88, 0.5);
+}
+
+.card img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.card .card-content {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card .card-desc {
+    height: 160px;
+    overflow: hidden;
+}
+
+.card .card-title {
+    font-size: 32px;
+}
+
+.card .read-more {
+    background: rgba(78, 78, 78, 0.45);
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.section-about {
+    background-image: url("../images/AboutSection.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.section-about>div {
+    max-width: 720px;
+    /* margin: auto; */
+}
+
+.section-about .about-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        border: 2px solid red;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h2 {
+        text-align: center;
+    }
+}
