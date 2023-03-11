@@ -1,5 +1,5 @@
 # HTML-CSS-Uygulamas-
-Figmadan bulduğum 'Travel Time' adlı tasarımı html ve pure css ve çok az da JS kullanarak kabaca kodladım.
+Zero to Hero Frontend eğitimi kapsamında Figmadan bulduğumuz bir tasarımı html ve pure css ve çok az da JS kullanarak kodladım
 (Responsive kısmına henüz ayarlama yapmadım, ilerleyen zamanda ekleyeceğim.)
 
 Demo: https://omeryaltirik.github.io/HTML-CSS-Uygulamas-/
